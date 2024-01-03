@@ -65,6 +65,11 @@ const Navbar = () => {
           Sponsors
         </Link>
       </li>
+      <li className="favourite-link" ref={fav}>
+        <Link to="register" onClick={toggleMenu}>
+          Register
+        </Link>
+      </li>
       </ul>
       
     </div>

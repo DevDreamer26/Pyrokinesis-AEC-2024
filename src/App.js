@@ -10,6 +10,7 @@ import Favourites from "./components/Favourites";
 import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
 import Sponsors from "./components/Sponsors/Sponsors";
+import Register from "./Pages/Register/Register";
 
 const App = () => {
   const minHeight = true;
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="about" element={<About minHeight={minHeight} />} />
         <Route path="sponsors" element={<Sponsors minHeight={minHeight} />} />
         <Route path="team" element={<Team minHeight={minHeight} />} />
+        <Route path="register" element={<Register minHeight={minHeight} />} />
         <Route path="gallery" element={<Gallery />} />
         <Route
           path="favourites"
