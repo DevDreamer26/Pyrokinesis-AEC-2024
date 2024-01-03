@@ -1,0 +1,44 @@
+.sponsors-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .sponsors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .sponsor-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .sponsors-img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  
+  /* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .sponsors-container {
+      padding: 10px;
+    }
+  
+    .sponsors-list {
+      justify-content: center;
+    }
+  
+    .sponsor-item {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
