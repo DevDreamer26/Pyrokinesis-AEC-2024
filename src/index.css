@@ -481,12 +481,13 @@ video {
 }
 
 .pyroText {
+  width: 90vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000000;
+  color: #010452;
 }
 
 .pyroText h1 {
@@ -495,15 +496,15 @@ video {
 }
 
 .pyroText p {
-  font-size: 5.5rem;
+  font-size: 5rem;
   margin-bottom: 20px;
 }
 
 .explore-button {
-  font-size: 1.2rem;
-  padding: 10px 20px;
-  background-color: #ffffff;
-  color: #000000;
+  font-size: 2.5rem;
+  padding: 15px 30px;
+  background-color: #000a4b;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -512,7 +513,34 @@ video {
 }
 
 /* Responsive styles */
+@media screen and (max-width: 376px) {
+  .pyroText h1 {
+    font-size: 3rem;
+  }
+
+  .pyroText p {
+    font-size: 2rem;
+  }
+
+  .explore-button  {
+    font-size: 3rem;
+    border-radius: 20px;
+  }
+}
 @media screen and (max-width: 768px) {
+  .pyroText h1 {
+    font-size: 3.5rem;
+  }
+
+  .pyroText p {
+    font-size: 1.2rem;
+  }
+
+  .pyroText button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) {
   .pyroText h1 {
     font-size: 2.5rem;
   }
@@ -523,5 +551,6 @@ video {
 
   .pyroText button {
     font-size: 1rem;
+    border-radius: 5px;
   }
 }

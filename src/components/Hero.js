@@ -11,7 +11,7 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         <div className="pyroText">
-        <p style={{letterSpacing:'20px',fontWeight:'600'}}>PYROKINESIS 2024</p>
+        <p style={{letterSpacing:'15px',fontWeight:'600'}}>PYROKINESIS 2024</p>
         <h3>Presents</h3>
           <h1>ENCHANTO ENIGMA</h1>
           <Link to="/register"><button className="explore-button">REGISTER HERE</button></Link>
