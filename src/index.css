@@ -462,6 +462,66 @@ section {
   
 }
 
-/* Navbar code */
-/* Add this to your existing CSS */
+/* New home section try */
+.secA {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Metal Mania;
+}
 
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pyroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000000;
+}
+
+.pyroText h1 {
+  font-size: 10rem;
+  margin-bottom: 10px;
+}
+
+.pyroText p {
+  font-size: 5.5rem;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Metal Mania;
+
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .pyroText h1 {
+    font-size: 2.5rem;
+  }
+
+  .pyroText p {
+    font-size: 1.2rem;
+  }
+
+  .pyroText button {
+    font-size: 1rem;
+  }
+}
