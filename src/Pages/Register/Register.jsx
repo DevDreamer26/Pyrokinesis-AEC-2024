@@ -13,7 +13,7 @@ const Register = () => {
        
 
       <div className="register-form">
-        <h2>PYROKINESIS 2024</h2>
+        <h2>Registration form</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="fullName">Full Name:</label>
