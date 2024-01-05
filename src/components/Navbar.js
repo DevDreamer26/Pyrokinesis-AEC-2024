@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`navbar wrapper ${isMenuOpen ? "open" : ""}`}>
+    <div className={`navbar-wrapper ${isMenuOpen ? "open" : ""}`}>
       <button className="menu-toggle" onClick={toggleMenu}>
       <GiHamburgerMenu />
 

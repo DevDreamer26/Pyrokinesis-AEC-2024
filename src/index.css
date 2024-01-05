@@ -73,7 +73,14 @@ section {
   font-size: 1.5rem;
   text-transform: lowercase;
 }
+.navbar-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem;
+  font-family: "Syncopate", sans-serif;
 
+}
 .links,
 .favourite-link {
   font-weight: 600;
