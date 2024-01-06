@@ -1,6 +1,6 @@
 .sponsors-container {
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1600px;
+    margin: 5rem auto;
     padding: 20px;
   }
   
@@ -10,6 +10,7 @@
   }
   
   .sponsors-list {
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -22,9 +23,11 @@
   
   .sponsors-img {
     max-width: 300px;
-    max-height: 300px;
-    object-fit: contain;
+    height: 300px;
+ 
+    object-fit:contain;
     border-radius: 50%;
+    
   }
   
   /* Responsive Styles */
@@ -40,5 +43,12 @@
     .sponsor-item {
       width: 100%;
       max-width: 200px;
+    }
+    .sponsors-img{
+      max-width: 180px;
+    height: 180px;
+ 
+    object-fit:contain;
+    border-radius: 50%;
     }
   }

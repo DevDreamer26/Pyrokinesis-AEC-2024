@@ -3,7 +3,8 @@ import "./Register.css";
 
 const Register = () => {
     const handleSubmit=()=>{
-        alert("Thankyou for registration!")
+        alert("Thank you for registration!")
+        alert("See you soon !")
     }
   return (
     <>
@@ -13,7 +14,7 @@ const Register = () => {
        
 
       <div className="register-form">
-        <h2>Registration form</h2>
+        <h2 className='head'>Registration form</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="fullName">Full Name:</label>
@@ -36,11 +37,12 @@ const Register = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="events">Select Events:</label>
+            <label htmlFor="events">Select days:</label>
             <select id="events" name="events" multiple>
-              <option value="event1">Event 1</option>
-              <option value="event2">Event 2</option>
-              <option value="event3">Event 3</option>
+              <option value="event1">Day 1</option>
+              <option value="event2">Day 2</option>
+              <option value="event3">Day 3</option>
+              <option value="event4">Day 4</option>
               {/* Add more events as needed */}
             </select>
           </div>
@@ -69,3 +71,4 @@ const Register = () => {
 }
 
 export default Register;
+

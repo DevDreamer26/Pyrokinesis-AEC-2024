@@ -11,18 +11,21 @@
     /* max-width: 100%; */
     width: 35rem;
     height: auto;
+    margin: 3rem;
   }
   
   .register-container {
+    color: white;
     max-width: 800px;
     width: 100%;
     margin-top: 20px;
-    background-color: #f4f4f4;
+    background-color: #000132;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .register-form {
+    background-color: #000132;
     margin-top: 20px;
   }
   
@@ -31,9 +34,11 @@
     flex-direction: column;
     align-items: center;
     padding:3rem;
+    background-color: #000132;
   }
   
-  h2 {
+  .head {
+    color: white;
     text-align: center;
   }
   
@@ -50,6 +55,8 @@
   
   input,
   select {
+    background-color: #000132;
+    color: white;
     width: 100%;
     padding: 10px;
     margin-top: 4px;
@@ -59,8 +66,8 @@
   
   .reg-button {
     width: 80%;
-    background-color: #030bff;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 20px;
     border: none;
@@ -69,7 +76,7 @@
   }
   
   .reg-button:hover {
-    background-color: #08002d;
+    background-color: #ffffff;
   }
   
   .pyro-field-location {
