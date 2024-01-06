@@ -5,7 +5,7 @@ export const blogsArr = [
     img: "p5.jpg",
     // author: "imissthe90s",
     // date: "April 22, 2010",
-    body: "Simply the greatest thing to come out of the 90s, the Spice Girls dominated the entertainment industry during the second half of the decade and became the biggest thing on the planet overnight.",
+    body: "Get ready to be swept away by the enchanting melodies and rhythmic beats at this year's college annual fest, as we present a spectacular Music Night that promises to be a celebration of diverse musical genres",
   },
   {
     id: 2,
