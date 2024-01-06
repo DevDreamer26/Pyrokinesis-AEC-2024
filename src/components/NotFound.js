@@ -30,7 +30,7 @@ const NotFound = () => {
         />
       </div>
       <div className="headline-2" ref={rightHeadlineRef}>
-        Find that page ...lol
+        Find that page ...lol test
       </div>
     </div>
   );
