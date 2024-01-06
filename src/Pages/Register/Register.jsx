@@ -43,10 +43,9 @@ const Register = () => {
               <option value="event2">Day 2</option>
               <option value="event3">Day 3</option>
               <option value="event4">Day 4</option>
-              {/* Add more events as needed */}
             </select>
           </div>
-
+          
           <button className='reg-button' type="submit">Register</button>
         </form>
       </div>
